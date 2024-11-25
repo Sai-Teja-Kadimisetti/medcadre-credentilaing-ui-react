@@ -1,8 +1,14 @@
-import './App.css';
+import React from 'react';
+import { Button } from '@mui/material';
+import { Home } from '@mui/icons-material';
 
 function App() {
   return (
-    <h1>Hello world...</h1>
+    <div>
+      <Button variant="contained" color="primary" startIcon={<Home />}>
+        Go Home
+      </Button>
+    </div>
   );
 }
 
