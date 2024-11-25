@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+# MedCadre Credentialing UI
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+MedCadre Credentialing UI is a React-based front-end application designed to manage credentialing workflows efficiently. This application provides a user-friendly interface, leveraging modern web development practices to simplify credentialing processes.  
 
-## Available Scripts
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+1. [Prerequisites](#prerequisites)  
+2. [Installation](#installation)  
+3. [Usage](#usage)  
+4. [Available Scripts](#available-scripts)  
+5. [Build Process](#build-process)  
+6. [Testing](#testing)  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Prerequisites  
 
-### `npm test`
+To run this project, ensure you have the following installed:  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Node.js**: Version `20.18.0`  
+  Download and install Node.js from the official website: [Node.js Downloads](https://nodejs.org/)  
 
-### `npm run build`
+- **npm**: Version `10.8.2`  
+  npm comes bundled with Node.js. For additional guidance, refer to the npm documentation: [npm Documentation](https://docs.npmjs.com/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Installation  
 
-### `npm run eject`
+Follow these steps to set up the project locally:  
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Clone the repository:  
+   git clone https://github.com/Sai-Teja-Kadimisetti/medcadre-credentilaing-ui-react.git
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Navigate to the project directory:  
+   cd medcadre-credentilaing-ui-react
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. Install the required dependencies:  
+   npm install
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Usage  
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To start the development server:  
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Run the following command:  
+   npm start
 
-### Code Splitting
+2. Open your browser and navigate to:  
+   http://localhost:3000
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Available Scripts  
 
-### Making a Progressive Web App
+In the project directory, the following scripts are available for use:  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- **`npm start`**: Launches the development server.  
+- **`npm test`**: Runs the test suite for the application.  
+- **`npm run build`**: Creates an optimized production build of the application in the `build` directory.  
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Build Process  
 
-### Deployment
+To generate a production-ready build:  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+1. Run the following command:  
+   npm run build
 
-### `npm run build` fails to minify
+2. The optimized build files will be available in the `build` directory.  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Testing  
+
+To run the test suite:  
+
+1. Execute the following command:  
+   npm test
+
+2. The test results will be displayed in the terminal.  
