@@ -9,6 +9,11 @@ MedCadre Credentialing UI is a React-based front-end application designed to man
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
   - [Usage](#usage)
+  - [Environment Setup](#environment-setup)
+    - [Available Environments](#available-environments)
+    - [Scripts for Environment Setup](#scripts-for-environment-setup)
+      - [Starting the Application:](#starting-the-application)
+      - [Building the Application:](#building-the-application)
   - [Available Scripts](#available-scripts)
   - [Build Process](#build-process)
   - [Testing](#testing)
@@ -57,6 +62,50 @@ To start the development server:
 2. Open your browser and navigate to:  
    [http://localhost:3000](http://localhost:3000)
 
+## Environment Setup
+
+This project supports multiple environments using the `env-cmd` package. You can define environment-specific variables in `.env` files and start or build the application for the respective environment.
+
+### Available Environments
+
+- **Local**: `.env.local`
+- **QA**: `.env.qa`
+- **Production**: `.env.production`
+
+### Scripts for Environment Setup
+
+Below are the commands available for different environments:
+
+#### Starting the Application:
+- **Local Development**:  
+  ```bash
+  npm run start:local
+  ```
+- **QA Environment**:  
+  ```bash
+  npm run start:qa
+  ```
+- **Production Environment**:  
+  ```bash
+  npm run start:prod
+  ```
+
+#### Building the Application:
+- **Local Build**:  
+  ```bash
+  npm run build:local
+  ```
+- **QA Build**:  
+  ```bash
+  npm run build:qa
+  ```
+- **Production Build**:  
+  ```bash
+  npm run build:prod
+  ```
+
+> **Note:** Ensure that the respective `.env` files are configured with the required variables before running the scripts.
+
 ## Available Scripts
 
 In the project directory, the following scripts are available:
@@ -64,6 +113,7 @@ In the project directory, the following scripts are available:
 - **`npm start`**: Launches the development server.  
 - **`npm test`**: Runs the test suite for the application.  
 - **`npm run build`**: Creates an optimized production build of the application in the `build` directory.  
+- **Environment-Specific Commands**: Refer to the [Environment Setup](#environment-setup) section.
 
 ## Build Process
 
@@ -126,5 +176,3 @@ export default App;
 ```
 
 For more information, visit the [Material-UI Documentation](https://mui.com/).
-
----
